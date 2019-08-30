@@ -13,6 +13,8 @@ def NameParser(url):
     driver = webdriver.Chrome()
     driver.get(url)
     js = "var oBtn=document.getElementsByTagName('a-carousel-col')[0];"
+    driver.execute_script(js)
+
     time.sleep(5)
     getId = driver.find_element(by=By.ID,value="anonCarousel2")
     getXpath = driver.find_elements_by_xpath("//*[@id="anonCarousel2"]/ol/li[1]/div/div[1]/a")
@@ -88,3 +90,7 @@ if __name__ == "__main__":
     https://zhuanlan.zhihu.com/p/34343228
 
     https://qiita.com/memakura/items/20a02161fa7e18d8a693
+
+    https://qiita.com/Azunyan1111/items/b161b998790b1db2ff7a
+
+    https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.chrome.webdriver
