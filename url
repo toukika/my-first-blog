@@ -51,3 +51,21 @@ https://space.bilibili.com/35282222
 
 
 https://blog.csdn.net/qq_41185868/article/details/86708491
+
+取得したデータはテンプレートエンジンであるejsとBootStrapを利用して作成したページに表示しました。
+
+１、pythonの軽量フレームワークflaskを使ってscrapyデータを渡す。
+２、テンプレートエンジン「jinja2」を使って、HTMLをレンダリングします。
+
+社内固定なサイトのクロールを作成します。
+NodeJSのモジュールcheerioとsuperagent，expressを使ってCD・DVD・ブルーレイカテゴリーのurlを取得しました。
+クロールしたデータはMySQLに保存します。
+
+
+効率性が高い言語を選びます。
+
+ローカル環境でクロールした内容をDynamoに格納します.
+
+DockerでDynamoDBをローカル環境を起動しました。
+Pythonからのアクセスはboto3というライブラリを使います：
+Flaskの画面テンプレート jinjaでテーブルデータを渡すことを実装しました。
