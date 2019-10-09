@@ -69,3 +69,5 @@ NodeJSのモジュールcheerioとsuperagent，expressを使ってCD・DVD・ブ
 DockerでDynamoDBをローカル環境を起動しました。
 Pythonからのアクセスはboto3というライブラリを使います：
 Flaskの画面テンプレート jinjaでテーブルデータを渡すことを実装しました。
+
+boto3 は Python用 AWS SDK です
