@@ -120,3 +120,5 @@ Pythonからのアクセスはboto3というライブラリを使います：
 Flaskの画面テンプレート jinjaでテーブルデータを渡すことを実装しました。
 
 boto3 は Python用 AWS SDK です
+
+https://cn.indeed.com/jobs?q=python&l=%E6%88%90%E9%83%BD%E5%B8%82%20%E9%AB%98%E6%96%B0%E5%8C%BA&start=10&vjk=e50f97f41bbbc22d
